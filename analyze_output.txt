@@ -1,0 +1,27 @@
+﻿Analyzing chat_app...                                           
+
+   info - The type parameter name 'Type' matches a visible type name - lib\core\errors\usecase.dart:5:24 - avoid_types_as_parameter_names
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\theme\app_theme.dart:75:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\core\widgets\shared_widgets.dart:231:63 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\screens\login_screen.dart:73:56 - deprecated_member_use
+   info - Statements in an if should be enclosed in a block - lib\features\auth\presentation\screens\login_screen.dart:136:27 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\features\auth\presentation\screens\signup_screen.dart:206:27 - curly_braces_in_flow_control_structures
+warning - Unused import: 'package:lottie/lottie.dart' - lib\features\auth\presentation\screens\splash_screen.dart:5:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\auth\presentation\screens\splash_screen.dart:56:48 - deprecated_member_use
+  error - The name 'ChatListState' isn't a type, so it can't be used as a type argument - lib\features\chat\presentation\cubit\chat_list_cubit.dart:7:35 - non_type_as_type_argument
+  error - The method 'ChatListInitial' isn't defined for the type 'ChatListCubit' - lib\features\chat\presentation\cubit\chat_list_cubit.dart:11:47 - undefined_method
+  error - The method 'ChatListLoading' isn't defined for the type 'ChatListCubit' - lib\features\chat\presentation\cubit\chat_list_cubit.dart:14:10 - undefined_method
+  error - The method 'ChatListLoaded' isn't defined for the type 'ChatListCubit' - lib\features\chat\presentation\cubit\chat_list_cubit.dart:18:31 - undefined_method
+  error - The method 'ChatListError' isn't defined for the type 'ChatListCubit' - lib\features\chat\presentation\cubit\chat_list_cubit.dart:19:28 - undefined_method
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\presentation\screens\chat_list_screen.dart:145:61 - deprecated_member_use
+warning - Unused import: '../../domain/entities/chat_entities.dart' - lib\features\chat\presentation\screens\chat_screen.dart:13:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\presentation\screens\chat_screen.dart:210:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\presentation\widgets\chat_input_bar.dart:226:34 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\presentation\widgets\chat_input_bar.dart:228:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\presentation\widgets\message_bubble.dart:52:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\presentation\widgets\message_bubble.dart:147:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\presentation\widgets\message_bubble.dart:157:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\presentation\widgets\message_bubble.dart:176:30 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\features\chat\presentation\widgets\typing_indicator.dart:43:39 - deprecated_member_use
+  error - The name 'MyApp' isn't a class - test\widget_test.dart:16:35 - creation_with_non_type
+
