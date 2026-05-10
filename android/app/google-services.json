@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "792611509359",
-    "project_id": "chatapp1-70a1d",
-    "storage_bucket": "chatapp1-70a1d.firebasestorage.app"
+    "project_number": "629288225882",
+    "project_id": "chat-app-abo-ramdan",
+    "storage_bucket": "chat-app-abo-ramdan.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:792611509359:android:5523dec4fbb4269ef3299a",
+        "mobilesdk_app_id": "1:629288225882:android:49f1a49e83ef139ed21c63",
         "android_client_info": {
           "package_name": "com.chatapp.chat_app"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBZeGdfPrTw-tXlCxdz2Lnktzt2_oCEWok"
+          "current_key": "AIzaSyC_j_MIYzOejIqHEeyWWH4R1HyGX_Ua1Uw"
         }
       ],
       "services": {

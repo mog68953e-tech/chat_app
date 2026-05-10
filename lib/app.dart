@@ -34,7 +34,7 @@ class ChatApp extends StatelessWidget {
           final router = AppRouter.router(authCubit);
 
           return MaterialApp.router(
-            title: 'ChatApp',
+            title: 'Abo Ramdan Chat',
             debugShowCheckedModeBanner: false,
             theme: AppTheme.light,
             darkTheme: AppTheme.dark,

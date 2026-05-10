@@ -13,6 +13,7 @@ import '../../../auth/presentation/cubit/auth_cubit.dart';
 import '../../../../core/theme/app_theme.dart';
 import '../../../../core/widgets/shared_widgets.dart';
 import '../../../../core/extensions/extensions.dart';
+import '../../../../core/router/app_router.dart';
 import '../../../../injection_container.dart';
 
 class ChatScreen extends StatefulWidget {
@@ -230,7 +231,7 @@ class _ChatScreenState extends State<ChatScreen> {
     return AppBar(
       leading: IconButton(
         icon: const Icon(Icons.arrow_back_ios_new_rounded),
-        onPressed: () => context.pop(),
+        onPressed: () => context.go(AppRouter.home),
       ),
       title: Row(
         children: [

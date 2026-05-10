@@ -44,39 +44,40 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDkDa5e8m-vquTCTXFiobcRKnHjHhV4boQ',
-    appId: '1:792611509359:web:19e602252fef62a7f3299a',
-    messagingSenderId: '792611509359',
-    projectId: 'chatapp1-70a1d',
-    authDomain: 'chatapp1-70a1d.firebaseapp.com',
-    storageBucket: 'chatapp1-70a1d.firebasestorage.app',
-    measurementId: 'G-KZYZT16SYC',
+    apiKey: 'AIzaSyBODT2ofmrjddKDzeqJ0wBwyGT-IXLjxe8',
+    appId: '1:629288225882:web:003961cd74db55b6d21c63',
+    messagingSenderId: '629288225882',
+    projectId: 'chat-app-abo-ramdan',
+    authDomain: 'chat-app-abo-ramdan.firebaseapp.com',
+    storageBucket: 'chat-app-abo-ramdan.firebasestorage.app',
+    measurementId: 'G-4PF11SQFPR',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBZeGdfPrTw-tXlCxdz2Lnktzt2_oCEWok',
-    appId: '1:792611509359:android:5523dec4fbb4269ef3299a',
-    messagingSenderId: '792611509359',
-    projectId: 'chatapp1-70a1d',
-    storageBucket: 'chatapp1-70a1d.firebasestorage.app',
+    apiKey: 'AIzaSyC_j_MIYzOejIqHEeyWWH4R1HyGX_Ua1Uw',
+    appId: '1:629288225882:android:49f1a49e83ef139ed21c63',
+    messagingSenderId: '629288225882',
+    projectId: 'chat-app-abo-ramdan',
+    storageBucket: 'chat-app-abo-ramdan.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC_i3Yzpw6wOfHIMcQR8q81gEgSzV-knpY',
-    appId: '1:792611509359:ios:120b2c70ab68e58cf3299a',
-    messagingSenderId: '792611509359',
-    projectId: 'chatapp1-70a1d',
-    storageBucket: 'chatapp1-70a1d.firebasestorage.app',
+    apiKey: 'AIzaSyCeCof8XgRd9V1nEi2CrTC5PL2-GSn4klo',
+    appId: '1:629288225882:ios:8341ffe49429331fd21c63',
+    messagingSenderId: '629288225882',
+    projectId: 'chat-app-abo-ramdan',
+    storageBucket: 'chat-app-abo-ramdan.firebasestorage.app',
     iosBundleId: 'com.chatapp.chatApp',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDkDa5e8m-vquTCTXFiobcRKnHjHhV4boQ',
-    appId: '1:792611509359:web:7aa0235f01143129f3299a',
-    messagingSenderId: '792611509359',
-    projectId: 'chatapp1-70a1d',
-    authDomain: 'chatapp1-70a1d.firebaseapp.com',
-    storageBucket: 'chatapp1-70a1d.firebasestorage.app',
-    measurementId: 'G-XGE3WQ46L5',
+    apiKey: 'AIzaSyBODT2ofmrjddKDzeqJ0wBwyGT-IXLjxe8',
+    appId: '1:629288225882:web:297f2306e3505216d21c63',
+    messagingSenderId: '629288225882',
+    projectId: 'chat-app-abo-ramdan',
+    authDomain: 'chat-app-abo-ramdan.firebaseapp.com',
+    storageBucket: 'chat-app-abo-ramdan.firebasestorage.app',
+    measurementId: 'G-WXYDYE1Y2R',
   );
+
 }
